@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Trans gaph
+Version:        1.0
+Author:         Lupa | soluções web
+URL:            http://lupasoluçõesweb.com.br
+-------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea{
+    outline: none;
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}

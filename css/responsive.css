@@ -1,0 +1,178 @@
+@media screen and (max-width: 1200px){
+    header{
+        width: 100%;
+        background-position: right;
+        background-size: cover;
+    }
+    nav.menu{
+        width: 100%;
+    }
+    .container-3d{
+        transform: skewY(0deg);
+    }
+    .container-3d .imgBx{
+        transform: skewX(0deg);
+    }
+    .container-3d .skew{
+        transform: skewX(0deg);
+    }
+    .container-3d .skew a{
+        transform: skewX(0deg);
+    }
+    .container-3d .imgBx img:hover{
+        filter: grayscale(0);
+    }
+    .container-3d .imgBx:hover img:nth-child(3){
+        transform: translate(15px,-15px);
+    }
+    .container-3d .imgBx:hover img:nth-child(2){
+        transform: translate(7px,-7px);
+        opacity: 0.5;
+    }
+    .container-3d .imgBx:hover img:nth-child(1){
+        transform: translate(0px,0px);
+        opacity: 0.1;
+    }
+}
+@media screen and (max-width: 1170px){
+    .busca{
+        margin-top: 380px;
+        position: absolute;
+    }
+    header .logo{
+        padding-top: 60px;
+    }
+    .container .card .face{
+        width: 100%;
+    }
+    section.s-1{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 700px){
+    .busca{
+        margin-top: 465px;
+        padding-right: 2%;
+        
+    }
+    .logo .btn-ocmt input[type=button]{
+        margin-top: 30px;
+    }
+    .busca input[type=search]{
+        width: 98%;
+    }
+    nav.menu{
+        display: none;
+    }
+    section.s-2{
+        height: auto;
+    }
+    .menu-footer{
+        height: auto;
+    }
+}
+@media screen and (max-width: 370px){
+    .logo h2{
+        display: none;
+    }
+    .logo img{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+section.s-3 span{
+    display: none;
+    font-size:30px;
+    cursor:pointer;
+    position: fixed; 
+    top: 20px;
+    left: 20px;
+}
+@media screen and (max-width: 1000px){
+    section.s-4 .jobs{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .list-jobs{
+        height: auto;
+    }
+    .slides{
+        padding-top: 40px;
+        height: auto;
+    }
+    .slides h2{
+        padding-bottom: 40px;
+    }
+    .slides .clients{
+        width: 50%;
+    }
+    section.s-4{
+        height: auto;
+    }
+    .infor-footer{
+        width: 100%;
+        height: auto;
+    }
+    .infor-footer .infor{
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    footer{
+        height: auto;
+    }
+    section.s-5{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .sever-text .text{
+        width: 100%;
+    }
+    .s-5 .sever-text{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    section.s-3 span{
+        display: block;
+    }
+    section.s-4 .jobs{
+        width: 100%;
+    }
+    .slides .clients{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+    .container-3d h3{
+        display: none;
+    }
+    .s-2 h2#text{
+        display: none;
+    }
+    .container-3d{
+        margin-top: 50px;
+    }
+    .container-3d .imgBx{
+        margin-bottom: 20px;
+    }
+    .action{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px){
+    section.s-4 .parcelas{
+        width: 100%;
+        height: auto;
+    }
+    .parcelas .cartoes{
+        width: 33%;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(45deg, rgb(133, 0, 255), rgb(0, 255, 149));
+    background-repeat: no-repeat;
+    color: white;
+}
+#landing-page{
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+}
+#container{
+    margin: auto;
+    width: min(90%, 112rem);
+}
+.location,
+h1,
+.chamada p{
+    height: 16vh;
+}
+main h1{
+    animation-delay: 150ms;
+    font-size: clamp(2.5rem, 5vw, 8.4rem);
+}
+.chamada p{
+    animation-delay: 200ms;
+}
+.chamada a{
+    width: 6rem;
+    height: 6rem;
+    background: rgb(0, 255, 85);
+    border: none;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    transition: background 200ms;
+    animation-delay: 250ms;
+}
+.chamada a:hover{
+    background: rgb(14, 189, 233);
+}
+#logo{
+    width: clamp(75px, 150px, 254px);
+    animation-delay: 50ms;
+}
+.location{
+    animation-delay: 100ms;
+}
+.chamada a{
+    animation-delay: 250ms;
+}
+
+/*
+desktop version
+*/
+
+@media (min-width: 760px){
+    #container{
+    padding: 0 2rem;
+    background: url(../img/3d-responsive-1.png)no-repeat 80% / 
+    clamp(30rem, 54vw, 70rem);
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .location,
+    h1,
+    .chamada p{
+        height: initial;
+        text-align: initial;
+    }
+    .location{
+        text-align: right;
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    main h1{
+        font-weight: bold;
+        line-height: 0.88;
+        margin: clamp(5%, 6vw, 12%) 0 4rem;
+        width: min(300px, 80%);
+    }
+    .chamada{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .chamada p{
+        font-size: 1.4rem;
+        line-height: 1.5;
+        width: clamp(20rem, 20vw, 30rem);
+    }
+    .chamada a{
+        margin: initial;
+    }
+}
